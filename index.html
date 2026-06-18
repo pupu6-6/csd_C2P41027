@@ -6,6 +6,8 @@
 </head>
 <body>
     <h1>SampleBBS</h1>
+    <input type="text" id="message">
+    <input type="button" value="送信" onclick="sendData()">
     <p>
         <h2>全メッセージ:</h2>
         <ol id="list">
@@ -15,4 +17,8 @@
         </ol>
     </p>
 </body>
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-auth-compat.js"></script>
+<script src="index.js"></script>
 </html>
